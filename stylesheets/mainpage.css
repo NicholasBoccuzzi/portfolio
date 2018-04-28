@@ -55,31 +55,27 @@
 .reveal-n {
   position:absolute;
   top: 10%;
-  left: 10.1%;
+  left: 60px;
   animation: reveal-n 1s;
+}
+@keyframes reveal-n {
+  0% {
+    left: 0px;
+    opacity: 0;
+  }
+
+  100% {
+    left: 60px;
+    opacity: 1;
+  }
 }
 
 .reveal-i {
   position:absolute;
   top: 10%;
-  left: 14%;
+  left: 86px;
   animation: reveal-i-one 1s;
 }
-
-.reveal-c {
-  position:absolute;
-  top: 10%;
-  left: 15.7%;
-  animation: reveal-c-one 1s;
-}
-
-.reveal-k {
-  position:absolute;
-  top: 10%;
-  left: 18.8%;
-  animation: reveal-k 1s;
-}
-
 @keyframes reveal-i-one {
   0% {
     top: 30%;
@@ -92,17 +88,13 @@
   }
 }
 
-@keyframes reveal-n {
-  0% {
-    left: 0%;
-    opacity: 0;
-  }
-
-  100% {
-    left: 10.1%;
-    opacity: 1;
-  }
+.reveal-c {
+  position:absolute;
+  top: 10%;
+  left: 97px;
+  animation: reveal-c-one 1s;
 }
+
 @keyframes reveal-c-one {
   0% {
     top: 0%;
@@ -114,14 +106,122 @@
     opacity: 1;
   }
 }
+
+.reveal-k {
+  position:absolute;
+  top: 10%;
+  left: 116px;
+  animation: reveal-k 1s;
+}
+
+
+
 @keyframes reveal-k {
   0% {
-    left: 30%;
+    left: 150px;
     opacity: 0;
   }
 
   100% {
-    left: 18.8%;
+    left: 116px;
     opacity: 1;
+  }
+}
+
+@keyframes reveal-b {
+  0% {
+    top: -70px;
+    opacity: 0;
+    left: 100px;
+  }
+
+  100% {
+    top: 10%;
+    left: 142px;
+    opacity: 1;
+  }
+}
+
+.reveal-b {
+  position:absolute;
+  top: 10%;
+  left: 142px;
+  animation: reveal-b 1s;
+}
+
+@keyframes reveal-o {
+  0% {
+    top: 50%;
+    opacity: 0;
+    left: 100px;
+
+  }
+
+  100% {
+    top: 10%;
+    opacity: 1;
+    left: 166px;
+  }
+}
+
+.reveal-o {
+  position:absolute;
+  top: 10%;
+  left: 166px;
+  animation: reveal-o 1s;
+}
+
+.reveal-c-two {
+  position:absolute;
+  top: 10%;
+  left: 187px;
+  animation: reveal-c-two 1s;
+}
+@keyframes reveal-c-two {
+  0% {
+    left: 230px;
+    opacity: 0;
+    top: 50%;
+  }
+
+  100% {
+    left: 187px;
+    opacity: 1;
+    top: 10%;
+  }
+}
+
+.reveal-c-three {
+  position:absolute;
+  top: 10%;
+  left: 207px;
+  animation: reveal-c-three 1s;
+}
+
+@keyframes reveal-c-three {
+  0% {
+    top: -50%;
+    opacity: 0;
+    left: 260px;
+  }
+
+  100% {
+    top: 10%;
+    opacity: 1;
+    left: 207px;
+  }
+}
+
+.reveal-u {
+  position:absolute;
+  top: 10%;
+  left: 228px;
+  animation: reveal-u 1s;
+}
+@keyframes reveal-u {
+  0% {
+  }
+
+  100% {
   }
 }
