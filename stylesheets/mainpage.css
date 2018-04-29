@@ -220,8 +220,13 @@
 }
 @keyframes reveal-u {
   0% {
+    top: -60%;
+    opacity: 0;
   }
 
   100% {
+    top: 10%;
+    opacity: 1;
+
   }
 }
